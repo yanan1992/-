@@ -1,0 +1,131 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="UTP-8">
+<title>May I indroduce myself?</title>
+<link type="text/css" rel="stylesheet" href="reset.css">
+<link type="text/css" rel="stylesheet" href="main.css">
+<link type="text/css" rel="stylesheet" href="jquery.notesforlightbox.css">
+<script type="text/javascript"src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript"src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"src="js/jquery.notesforlightbox.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  	$(".down-text").hide();
+  	$(".extend").hide();
+  	$(".inner-text").hover(function(){
+  		$(this).css("background-color","rgba(226,151,145,0)");
+  		$(".down-text",this).slideToggle(500);
+  		$(".extend",this).slideToggle(500);
+  	});
+  	$(".inner-text").mouseleave(function(){
+  		$(this).css("background-color","rgba(226,151,145,.5)");
+  	   
+  	})
+  	})  
+</script>
+</head>
+<body>
+	<header>
+	<div class="inner">
+		<nav>
+			<div class="logo">LOGO</div>
+			<ul>
+				<li><a href="">START</a></li>
+				<li><a href="">ABOUT ME</a></li>
+				<li><a href="">WORK</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+		</nav>
+		<div id="banner">
+			<h2>May I indroduce myself?</h2>
+			<div class="hr"></div>
+			<p>Frontend Design | UI/UX Design</p>
+		</div>
+		</div>
+		<div class="button"><button>GO AHEAD</button></div>
+	</header>
+	<div id="content">
+		<section id="first-sec">
+			<h3>RAPHAEL   LECHNER.</h3>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+		</section>
+		<section id="second-sec">
+			<item>
+				<img src="images/1.jpg" alt="first-icon">
+				<h5>Sketching is fun</h5>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, </p>
+			</item>
+			<item>
+				<img src="images/2.jpg" alt="first-icon">
+				<h5>Design afterwards</h5>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, </p>
+			</item>
+			<item>
+				<img src="images/3.jpg" alt="first-icon">
+				<h5>Finalize</h5>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, </p>
+			</item>
+		</section>
+		<section id="third-sec">
+			
+				<div class="image-box">
+				    <div class="inner-text">
+				       <!--  <a href="images/pic1.jpg"><div class="extend"></div></a> -->
+				        <div class="down-text">
+				            <h3>Lorem ipsum dolor sit</h3>
+				            <p>amet consetetur sadipscing elitr</p>
+				        </div>
+				    </div>
+			    </div>
+			    <div class="image-box">
+				    <div class="inner-text">
+				      <!--   <a href="images/pic2.jpg"><div class="extend"></div></a> -->
+				        <div class="down-text">
+				            <h3>Lorem ipsum dolor sit</h3>
+				            <p>amet consetetur sadipscing elitr</p>
+				        </div>
+				    </div>
+			    </div>
+			    <div class="image-box">
+				    <div class="inner-text">
+				      <!--    <a href="images/pic3.jpg"><div class="extend"></div></a> -->
+				        <div class="down-text">
+				            <h3>Lorem ipsum dolor sit</h3>
+				            <p>amet consetetur sadipscing elitr</p>
+				        </div>
+				    </div>
+			    </div>
+			    <div class="image-box">
+				    <div class="inner-text">
+				    <!--      <a href="images/pic4.jpg"><div class="extend"></div></a> -->
+				        <div class="down-text">
+				            <h3>Lorem ipsum dolor sit</h3>
+				            <p>amet consetetur sadipscing elitr</p>
+				        </div>
+				    </div>
+			    </div>
+				
+			
+			<div class="button_i"><button>VIEW MORE <img src="images/jt.png"></button></div>
+		</section>
+	</div>
+	<footer>
+		<div id="contact">
+			<h3>Get in touch!</h3>
+			<div class="input">
+				<div class="input_1"><input type="text"value="Name"><input type="text"value="Email"></div>
+				<div class="input_2"><input type="text"value="How can I help you" ></div> <!-- 注：添加样式 -->
+			</div>
+		</div>
+		<div id="footer_nav">
+			<div class="item">
+				<item></item>
+				<item></item>
+				<item></item>
+			</div>
+			<p><span>&copy Raphael Lechner</span><span>Imprint</span></p>
+		</div>
+	</footer>
+</body>
+</html>
